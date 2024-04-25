@@ -2,7 +2,7 @@ import React from 'react'
 
 const NewsItem = (props) => {
 
-  let { title, description, imageUrl, newsurl, author, date, source } =props;
+  let { title, description, imageUrl, newsurl, author, date, source } = props;
   return (
     <div className='my-3'>
       <div className="card my-3">
